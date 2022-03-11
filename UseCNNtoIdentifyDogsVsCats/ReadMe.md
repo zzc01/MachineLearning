@@ -1,7 +1,7 @@
 ## Use CNN to Identify Dogs Vs Cats
 * Results of applying the prediction model to 12 testing data images. 
 <p align="center">
-<img width="400" alt="Screenshot 2022-03-10 093110" src="https://user-images.githubusercontent.com/86133411/157817551-24923a66-14c5-4836-bf01-decdc2ec4d21.png">
+<img width="360" alt="Screenshot 2022-03-10 093110" src="https://user-images.githubusercontent.com/86133411/157817551-24923a66-14c5-4836-bf01-decdc2ec4d21.png">
 </p>
 <br/>
 
