@@ -1,0 +1,18 @@
+# For CMakeLists.txt.user
+*.txt.user
+*.user
+
+# Backup files 
+*.bak
+
+# Build folders
+build/
+build* 
+
+# Build folders
+
+# For test.txt
+test.txt
+
+# images
+*.png
