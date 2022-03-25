@@ -34,6 +34,9 @@
 <br/>
 
 # References 
-[1] Sentdex, https://www.youtube.com/c/sentdex. <br/>
-[2] Hung Yi Lee, Machine Learning Course, https://speech.ee.ntu.edu.tw/~tlkagk/. <br/> 
-[3] Zardoua Yassir, Support Vector Machines, https://www.youtube.com/playlist?list=PLLCGSi_WZBNeMfLavsJdhQAf9_K-0DevT. <br/>
+[1] Sentdex, [Machine Learning with Python](https://www.youtube.com/c/sentdex). <br/>
+[2] Hung Yi Lee, [Machine Learning Course](https://speech.ee.ntu.edu.tw/~tlkagk/). <br/> 
+[3] Zardoua Yassir, [Support Vector Machines](https://www.youtube.com/playlist?list=PLLCGSi_WZBNeMfLavsJdhQAf9_K-0DevT). <br/>
+[4] Kaggle, [Breast Cancer Wisconsin (Diagnostic) Data Set](https://www.kaggle.com/uciml/breast-cancer-wisconsin-data). <br/>
+[5] Sanket Bose, [Feature Selection with 98.75% Accuracy](https://www.kaggle.com/code/sanketbose97/feature-selection-with-98-75-accuracy/notebook). <br/>
+
