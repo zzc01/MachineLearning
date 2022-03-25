@@ -14,16 +14,17 @@
 #### [Support Vector Machine](/SupportVectorMachine)
 * Study support vector machines (SVM) classifier 
   *  Hyperplane boundary, Lagrange primal and dual equations, soft margin, slack, and kernel trick. 
-* Coding practices 
+
+<pre><p align="center">
+<img src="https://user-images.githubusercontent.com/86133411/160174953-5c191ef5-c764-44a3-ba4f-56a0bdc9400d.png"  width="900" >
+</p></pre>
+
+* Coding exercises 
   * Use scikit-learn SVM classifier on Kaggle Breast Cancer Wisconsin (Diagnostic) Data Set
     * Learn Seaborn library for data visualization 
   * Build own SVM classifier 
   * Build SVM classifier using CVXOPT for constraint optimization.  
 
-<pre><p align="center">
-<img src="https://user-images.githubusercontent.com/86133411/160058042-57fb907c-2ecb-4fd2-8b9f-67183992e3a4.png"  width="762" height="239">
-</p></pre>
-<br/>
 
 #### [Use CNN to Identify Dogs Vs Cats](/UseCNNtoIdentifyDogsVsCats)
 * Learn how to download Kaggle data set, build and train CNN models, and use the model for prediction. 
