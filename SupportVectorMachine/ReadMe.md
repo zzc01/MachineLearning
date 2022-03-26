@@ -5,14 +5,21 @@
 * The summary and difference of the two implementations are listed in the table below. 
 
 <pre><p align="center">
-<img src="https://user-images.githubusercontent.com/86133411/160161326-21cb1984-3d74-45e2-acbe-87208ffda3d1.png"  width="644" height="289">
+<img src="https://user-images.githubusercontent.com/86133411/160176273-87bd3b31-abb4-4825-a759-8bdf6c95e20e.png"  width="644" height="289">
 </p></pre>
 
-* Results
-  * SupportVectorMachine.py 
-    * linear 
-  * SupportVectorMachineCVXOPT.py
-    * linear, nonlinear, soft 
+#### Results
+* SupportVectorMachine.py 
+  * Figure below shows the result of the simple linear SVM classifier. The circle dots are training data and star dots are testing data. 
+
+<pre><p align="center">
+<img src="https://user-images.githubusercontent.com/86133411/160172551-1b38ac15-d3f8-48f5-b12c-624c848508b8.png"  width="362">
+</p></pre>
+
+* SupportVectorMachineCVXOPT.py
+  * Linear kernel, polynomial kernel, gaussian kernel, and soft margin
+
+
 
 * Some discussions 
   *  When using CVXOPT encounter some errors
