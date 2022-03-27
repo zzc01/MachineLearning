@@ -37,19 +37,19 @@
   * Changed the data set for nonlinear problem to three cluster for ease of visualization. Also changed polynomial solver from p=3 to p=2. 
 
 
-### KaggleBreastCancerSVM.py and KaggleBreastCancerXGBoost.ipynb 
+### KaggleBreastCancerSVM.py and KaggleBreastCancerSVM.ipynb 
 * Both scripts uses scikit-learn library.  
-* KaggleBreastCancerXGBoost.ipynb tried out some techniques. 
-  *  Tried out different classifiers: KNN, SVM, Logistic Regression, XGboost 
+* KaggleBreastCancerSVM.ipynb tried out some techniques. 
+  *  Tried out different classifiers: KNN, random forest, SVM, logistic regression, XGboost 
   *  Data set normalization using using RobustScaler() 
   *  Correlation analysis between parameters and heatmap visualization
   *  Box plot, violin plot, and swarm plot using Seaborn library  
   *  Parameter feature reduction 
   *  Confussion matrcies visualization 
 
-* Confusion matrix of KNN (left) and Random Forest (right)
+* Confusion matrix of KNN (left), Random Forest (middle), and SVM (right)
 <pre><p align="center">
-<img src="https://user-images.githubusercontent.com/86133411/160294113-4f504b06-8660-4127-a6e6-5dccec8d40e3.png"  width="300"> <img src="https://user-images.githubusercontent.com/86133411/160294107-5b36fbdd-cdd1-473c-8575-d8a6b5915121.png"  width="300"> 
+<img src="https://user-images.githubusercontent.com/86133411/160294113-4f504b06-8660-4127-a6e6-5dccec8d40e3.png"  width="300"> <img src="https://user-images.githubusercontent.com/86133411/160294107-5b36fbdd-cdd1-473c-8575-d8a6b5915121.png"  width="300"> <img src="https://user-images.githubusercontent.com/86133411/160304088-775be4df-312f-4af5-b917-25ecbf083ccc.png"  width="300"> 
 </p></pre>
 * Confusion matrix of Logistic Regression (left) and XGBoost (right)
 <pre><p align="center">
