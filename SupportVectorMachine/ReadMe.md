@@ -1,6 +1,6 @@
 # Support Vector Machine Study
 
-#### SupportVectorMachine.py and SupportVectorMachineCVXOPT.py
+### SupportVectorMachine.py and SupportVectorMachineCVXOPT.py
 * SupportVectorMachine.py is a SVM classifier from scratch. 
 * SupportVectorMachineCVXOPT.py contains SVM classifiers uses CVXOPY library for optimization. 
 * The summary and difference of the two implementations are listed in the table below. 
@@ -37,7 +37,7 @@
   * Changed the data set for nonlinear problem to three cluster for ease of visualization. Also changed polynomial solver from p=3 to p=2. 
 
 
-#### KaggleBreastCancerSVM.py and KaggleBreastCancerXGBoost.ipynb 
+### KaggleBreastCancerSVM.py and KaggleBreastCancerXGBoost.ipynb 
 * Both scripts uses scikit-learn library.  
 * KaggleBreastCancerXGBoost.ipynb tried out some techniques. 
   *  Tried out different classifiers: KNN, SVM, Logistic Regression, XGboost 
