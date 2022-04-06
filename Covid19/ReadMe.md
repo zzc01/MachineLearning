@@ -1,6 +1,7 @@
 #### [Covid19Visualization.ipynb](Covid19Visualization.ipynb)
 * Covid-19 data analysis and visualization 
 * As shown below, Taiwan's Covid-19 mortality rate (total deaths / total confirmed cases) is high. However, this might be due to the low total confirmed cases. Their total confirmed cases per 1M popultion is low (total confirmed cases / population x 1M). 
+* The data below where filtered by a moving average filter of 7 days window size. 
 
 <pre><p align="center">
 <img src="https://user-images.githubusercontent.com/86133411/161902690-afe8e242-e9b2-45ac-a985-9f0abc159fd4.png"  width="450" > <img src="https://user-images.githubusercontent.com/86133411/161902702-d9b2aa1c-767c-4dcd-bd00-cac6f2a22039.png"  width="450" >
