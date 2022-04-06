@@ -1,43 +1,21 @@
-# Machine Learning Practice Projects
-* This repository is for studying machine learning related topics and practice some projects. 
-<br/>
-
-## Installation 
-* Install python and jupyter notebook, and run under virtual enviroment.
-* Install Cuda toolkit and cuDNN 
-* Install Visual Studio Code and python extension 
-* pip install related packages: ipykernel, tensorflow, tflearn  
-<br/>
-
-## Notes
-
-#### [Support Vector Machine](/SupportVectorMachine)
-* Study support vector machines (SVM) classifier 
-  *  Hyperplane boundary, Lagrange primal and dual equations, soft margin, slack, and kernel trick. 
+#### [Covid19Visualization.ipynb](Covid19Visualization.ipynb)
+* Covid-19 data analysis and visualization 
+* As shown below, Taiwan's Covid-19 mortality rate (total deaths / total confirmed cases) is high. However, this might be due to the low total confirmed cases. Their total confirmed cases per 1M popultion is low (total confirmed cases / population x 1M). 
 
 <pre><p align="center">
-<img src="https://user-images.githubusercontent.com/86133411/160174953-5c191ef5-c764-44a3-ba4f-56a0bdc9400d.png"  width="900" >
+<img src="https://user-images.githubusercontent.com/86133411/161902690-afe8e242-e9b2-45ac-a985-9f0abc159fd4.png"  width="450" > <img src="https://user-images.githubusercontent.com/86133411/161902702-d9b2aa1c-767c-4dcd-bd00-cac6f2a22039.png"  width="450" >
+<img src="https://user-images.githubusercontent.com/86133411/161902707-28f69f1d-a8f4-485b-9929-d23679b58d88.png"  width="450" > 
+
+<img src="https://user-images.githubusercontent.com/86133411/161902711-7b23d1e9-d672-41fd-9ecd-43e5e28cf9d0.png"  width="450" > <img src="https://user-images.githubusercontent.com/86133411/161902717-a104cce2-b088-465e-9915-c56191aef2d4.png"  width="450" > 
+
+<img src="https://user-images.githubusercontent.com/86133411/161902728-30ffc328-ec18-470d-aaad-c788a801e62e.png"  width="450" > <img src="https://user-images.githubusercontent.com/86133411/161902724-7cdd6b48-a50d-44a6-9539-9dc1fb295ee6.png"  width="450" >
 </p></pre>
 
-* Coding exercises 
-  * Use scikit-learn SVM classifier on Kaggle Breast Cancer Wisconsin (Diagnostic) Data Set
-    * Learn Seaborn library for data visualization 
-  * Build own SVM classifier 
-  * Build SVM classifier using CVXOPT for constraint optimization.  
 
-
-#### [Use CNN to Identify Dogs Vs Cats](/UseCNNtoIdentifyDogsVsCats)
-* Learn how to download Kaggle data set, build and train CNN models, and use the model for prediction. 
-* Here are the procedures:
-<pre><p align="center">
-<img src="https://user-images.githubusercontent.com/86133411/157815556-905dd56b-c756-4763-b248-38632e37bc9c.png"  width="566" height="214">
-</p></pre>
-<br/>
-
-# References 
-[1] Sentdex, [Machine Learning with Python](https://www.youtube.com/c/sentdex). <br/>
-[2] Hung Yi Lee, [Machine Learning Course](https://speech.ee.ntu.edu.tw/~tlkagk/). <br/> 
-[3] Zardoua Yassir, [Support Vector Machines](https://www.youtube.com/playlist?list=PLLCGSi_WZBNeMfLavsJdhQAf9_K-0DevT). <br/>
-[4] Kaggle, [Breast Cancer Wisconsin (Diagnostic) Data Set](https://www.kaggle.com/uciml/breast-cancer-wisconsin-data). <br/>
-[5] Sanket Bose, [Feature Selection with 98.75% Accuracy](https://www.kaggle.com/code/sanketbose97/feature-selection-with-98-75-accuracy/notebook). <br/>
-
+# References
+[1] [Kaggle, Coronavirus (COVID-19) Visualization & Prediction](https://www.kaggle.com/code/therealcyberlord/coronavirus-covid-19-visualization-prediction/notebook#US-Medical-Data-on-Testing)  </br>
+[2] [Kaggle, COVID-19 - Analysis, Visualization & Comparisons](https://www.kaggle.com/code/imdevskp/covid-19-analysis-visualization-comparisons#Date-vs) </br>
+[3] [Worldmeters Coronavirus](https://www.worldometers.info/coronavirus/#countries) </br>
+[4] [Johns Hopkins Center for Systems Science and Engineering COVID-19 GitHub](https://github.com/CSSEGISandData/COVID-19) </br>
+[5] [Johns Hopkins Coronavirus Resouce Center](https://coronavirus.jhu.edu/map.html) </br> 
+[6] [World Population](https://worldpopulationreview.com/countries)</br>
