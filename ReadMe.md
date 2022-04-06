@@ -11,6 +11,10 @@
 
 ## Notes
 
+#### [Covid-19 Data Analysis and Visualization](/Covid19)
+* Collecting world-wide Covid-19 confirmed cases and death case. 
+* Analysis and visualization of the data focusing on US and Taiwan. <br/>
+
 #### [Support Vector Machine](/SupportVectorMachine)
 * Study support vector machines (SVM) classifier 
   *  Hyperplane boundary, Lagrange primal and dual equations, soft margin, slack, and kernel trick. 
