@@ -3,15 +3,14 @@
 * As shown below, Taiwan's Covid-19 mortality rate (total deaths / total confirmed cases) is high. However, this might be due to the low total confirmed cases. Their total confirmed cases per 1M popultion is low (total confirmed cases / population x 1M). 
 * The data below where filtered by a moving average filter of 7 days window size. 
 
-
 <pre><p align="center">
-<img src="https://user-images.githubusercontent.com/86133411/162043149-7adba24c-abbc-48d7-abe2-ee76d58a1436.png"  width="450" > 
-<img src="https://user-images.githubusercontent.com/86133411/162043164-2200b132-bedc-4563-9e81-8f4bc8113f7b.png"  width="450" > 
-<img src="https://user-images.githubusercontent.com/86133411/162043172-ab43d513-4f87-466b-af96-39a690c73d0c.png"  width="450" > 
-<img src="https://user-images.githubusercontent.com/86133411/162043196-4d4884c4-3348-4f9f-b676-85d85528fb3c.png"  width="450" > 
-<img src="https://user-images.githubusercontent.com/86133411/162043216-23fd4d2b-1618-4357-8b4c-9b7cc4ac69f5.png"  width="450" > 
-<img src="https://user-images.githubusercontent.com/86133411/162043185-248006f2-2342-42a5-9af8-564726611ae0.png"  width="450" > 
-<img src="https://user-images.githubusercontent.com/86133411/162043204-7a3e0be0-b58a-4e2a-bfc2-e97660f6fcee.png"  width="450" > 
+<img src="https://user-images.githubusercontent.com/86133411/162115021-a3797ee2-4446-470a-8cc2-771eba04723a.png"  width="600" > 
+<img src="https://user-images.githubusercontent.com/86133411/162115026-ba3c6b44-b343-4c61-8f84-30fe2a4322b6.png"  width="600" > 
+<img src="https://user-images.githubusercontent.com/86133411/162115010-b4cfb143-7dca-4bcd-8567-3258817364a8.png"  width="600" > 
+<img src="https://user-images.githubusercontent.com/86133411/162115005-f015b923-f1f5-45ac-8d0d-e579fc828c4e.png"  width="600" > 
+<img src="https://user-images.githubusercontent.com/86133411/162115015-a1b42cb9-7609-4327-b6f6-5c96d628dadb.png"  width="600" > 
+<img src="https://user-images.githubusercontent.com/86133411/162115002-4b5c5d1f-789d-4f5f-bbce-d839833fe446.png"  width="600" > 
+<img src="https://user-images.githubusercontent.com/86133411/162115008-1ec43b6f-506d-4048-973f-ed322d6e2fcd.png"  width="600" > 
 </p></pre>
 
 
