@@ -15,9 +15,9 @@
 
 
 # References
-[1] [Kaggle, Coronavirus (COVID-19) Visualization & Prediction](https://www.kaggle.com/code/therealcyberlord/coronavirus-covid-19-visualization-prediction/notebook#US-Medical-Data-on-Testing)  </br>
-[2] [Kaggle, COVID-19 - Analysis, Visualization & Comparisons](https://www.kaggle.com/code/imdevskp/covid-19-analysis-visualization-comparisons#Date-vs) </br>
-[3] [Worldmeters Coronavirus](https://www.worldometers.info/coronavirus/#countries) </br>
-[4] [Johns Hopkins Center for Systems Science and Engineering COVID-19 GitHub](https://github.com/CSSEGISandData/COVID-19) </br>
-[5] [Johns Hopkins Coronavirus Resouce Center](https://coronavirus.jhu.edu/map.html) </br> 
-[6] [World Population](https://worldpopulationreview.com/countries)</br>
+[1] [Worldmeters Coronavirus](https://www.worldometers.info/coronavirus/#countries) </br>
+[2] [Johns Hopkins Center for Systems Science and Engineering COVID-19 GitHub](https://github.com/CSSEGISandData/COVID-19) </br>
+[3] [Johns Hopkins Coronavirus Resouce Center](https://coronavirus.jhu.edu/map.html) </br> 
+[4] [World Population](https://worldpopulationreview.com/countries)</br>
+[5] [Kaggle, Coronavirus (COVID-19) Visualization & Prediction](https://www.kaggle.com/code/therealcyberlord/coronavirus-covid-19-visualization-prediction/notebook#US-Medical-Data-on-Testing)  </br>
+[6] [Kaggle, COVID-19 - Analysis, Visualization & Comparisons](https://www.kaggle.com/code/imdevskp/covid-19-analysis-visualization-comparisons#Date-vs) </br>
