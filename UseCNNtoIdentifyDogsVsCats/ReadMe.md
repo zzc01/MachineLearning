@@ -1,29 +1,26 @@
 # Use CNN to Identify Dogs Vs Cats
 
-Here are two codes for building CNN classifier for dogs v.s. cats. The earlier work uses Tflearn and the more later work uses Keras. While Tflearn is a transparent deep learning library built on top of Tensorflow, Keras has more pre-trained models and more documentations. 
+Here are two codes for building CNN classifier for dogs v.s. cats. The earlier work uses Tflearn and the more later work uses Keras. While Tflearn is a transparent deep learning library built on top of Tensorflow, Keras has more pre-trained models and more documentations.  <br><br>
 
 
 ### [CNN classifier using Keras](UseCNNtoIdentifyDogsVsCatsKeras.ipynb)
 
-* Original dataset splited into training dataset 75% and testing dataset 25% <br/>
-CNN model based on VGG architecture <br/>
-Three stacks of convolutional layer followed by max pooling layer <br/>
-Kernel size: 3 x 3. 32 filters, 64 filters, and 128 filters. <br/>
-Max Pooling size: 2 x 2 <br/>
-Batch size: 64. <br/>
-Optimization method SGD  <br/>
+* Original dataset splited into training dataset 75% and testing dataset 25% <br>
+CNN model based on VGG architecture <br>
+Three stacks of convolutional layer followed by max pooling layer <br>
+Kernel size: 3 x 3. 32 filters, 64 filters, and 128 filters. <br>
+Max Pooling size: 2 x 2 <br>
+Batch size: 64 <br>
+Optimization method SGD <br>
 
-* Training results without data augmentation. The accuracy was around 80%. There is evident overfitting after 5~6th epoch. <br/>
-The difference of the two results is in the right one more convolution layer was used and has two fully connected layer. 
+* Training results without data augmentation. The left plot shows the results of the baseline model. The accuracy acheived is 79.6%. The right plot shows the results of using more convolution layers and has two fully connected layers. The accuracy acheived is 81%. Both show evident overfitting after 5~6th epoch. <br>
 
 <p align="center">
 <img width="400" alt="VGG3_20epoch" src="https://user-images.githubusercontent.com/86133411/196612255-63cbf6c0-9a82-4979-8034-ec3fa6efc187.png">
 <img width="400" alt="VGG3_plus_20epoch" src="https://user-images.githubusercontent.com/86133411/196612191-96fd7125-a2f6-43cb-97e0-2b16a7e2b049.png">
 </p>
-<br/>
 
-* Training results with data augmentation. The accuracy was around 92%.  
-The right one has more convolution layer was used and has two fully connected layer. 
+* Training results with data augmentation. The left plot baseline model acheives 87% of accuracy. The right plot model with more layers acheived is 92%. <br>
 
 <p align="center">
 <img width="400" alt="VGG3_augmented_80epoch" src="https://user-images.githubusercontent.com/86133411/196612215-169306aa-ac02-44f6-8d59-f91abb7f9e24.png">
