@@ -1,4 +1,37 @@
-## Use CNN to Identify Dogs Vs Cats
+# Use CNN to Identify Dogs Vs Cats
+
+Here are two codes for building CNN classifier for dogs v.s. cats. The earlier work uses Tflearn and the more later work uses Keras. While Tflearn is a transparent deep learning library built on top of Tensorflow, Keras has more pre-trained models and more documentations. 
+
+
+### [CNN classifier using Keras](UseCNNtoIdentifyDogsVsCats.ipynb)
+
+* Original dataset splited into training dataset 75% and testing dataset 25% <br/>
+CNN model based on VGG architecture <br/>
+Three stacks of convolutional layer followed by max pooling layer <br/>
+Kernel size: 3 x 3. 32 filters, 64 filters, and 128 filters. <br/>
+Max Pooling size: 2 x 2 <br/>
+Batch size: 64. <br/>
+Optimization method SGD  <br/>
+
+* Training results without data augmentation. The accuracy was around 80%. There is evident overfitting after 5~6th epoch. <br/>
+The difference of the two results is in the right one more convolution layer was used and has two fully connected layer. 
+
+<p align="center">
+<img width="400" alt="VGG3_20epoch" src="https://user-images.githubusercontent.com/86133411/196612255-63cbf6c0-9a82-4979-8034-ec3fa6efc187.png">
+<img width="400" alt="VGG3_plus_20epoch" src="https://user-images.githubusercontent.com/86133411/196612191-96fd7125-a2f6-43cb-97e0-2b16a7e2b049.png">
+</p>
+<br/>
+
+* Training results with data augmentation. The accuracy was around 92%.  
+The right one has more convolution layer was used and has two fully connected layer. 
+
+<p align="center">
+<img width="400" alt="VGG3_augmented_80epoch" src="https://user-images.githubusercontent.com/86133411/196612215-169306aa-ac02-44f6-8d59-f91abb7f9e24.png">
+<img width="400" alt="VGG3_plus_augmented_80epoch" src="https://user-images.githubusercontent.com/86133411/196612202-e6511512-676d-47d0-940e-62547acee8af.png">
+</p>
+<br/>
+
+### [CNN classifier using Tflearn](UseCNNtoIdentifyDogsVsCats.ipynb)
 * Results of applying the prediction model to 12 testing data images. 
 <p align="center">
 <img width="360" alt="Screenshot 2022-03-10 093110" src="https://user-images.githubusercontent.com/86133411/157817551-24923a66-14c5-4836-bf01-decdc2ec4d21.png">
@@ -19,4 +52,6 @@
 <br/>
 
 ## References 
-[1] sentdex, https://www.youtube.com/c/sentdex. <br/>
+[1] Jason Brownlee, https://machinelearningmastery.com/how-to-develop-a-convolutional-neural-network-to-classify-photos-of-dogs-and-cats/ <br/>
+[2] Rohit G., https://www.kaggle.com/code/rohitgadhwar/image-classification-using-cnn-transfer-learning <br/>
+[3] Sentdex, https://www.youtube.com/c/sentdex. <br/>
