@@ -3,7 +3,7 @@
 Here are two codes for building CNN classifier for dogs v.s. cats. The earlier work uses Tflearn and the more later work uses Keras. While Tflearn is a transparent deep learning library built on top of Tensorflow, Keras has more pre-trained models and more documentations. 
 
 
-### [CNN classifier using Keras](UseCNNtoIdentifyDogsVsCats.ipynb)
+### [CNN classifier using Keras](UseCNNtoIdentifyDogsVsCatsKeras.ipynb)
 
 * Original dataset splited into training dataset 75% and testing dataset 25% <br/>
 CNN model based on VGG architecture <br/>
@@ -31,7 +31,7 @@ The right one has more convolution layer was used and has two fully connected la
 </p>
 <br/>
 
-### [CNN classifier using Tflearn](UseCNNtoIdentifyDogsVsCats.ipynb)
+### [CNN classifier using Tflearn](UseCNNtoIdentifyDogsVsCatsTflearn.ipynb)
 * Results of applying the prediction model to 12 testing data images. 
 <p align="center">
 <img width="360" alt="Screenshot 2022-03-10 093110" src="https://user-images.githubusercontent.com/86133411/157817551-24923a66-14c5-4836-bf01-decdc2ec4d21.png">
