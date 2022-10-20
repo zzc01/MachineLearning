@@ -13,20 +13,29 @@ Max Pooling size: 2 x 2 <br>
 Batch size: 64 <br>
 Optimization method SGD <br>
 
-* Training results without data augmentation. The left plot shows the results of the baseline model. The accuracy acheived is 79.6%. The right plot shows the results of using more convolution layers and has two fully connected layers. The accuracy acheived is 81%. Both show evident overfitting after 5~6th epoch. <br>
+* Training results without data augmentation. Fig. 1(a) shows the results of the baseline model. The accuracy acheived is 79.6%. Fig. 1(b) shows the results of using more convolution layers and has two fully connected layers. The accuracy acheived is 81%. Both show evident overfitting after 5~6th epoch. 
 
 <p align="center">
 <img width="400" alt="VGG3_20epoch" src="https://user-images.githubusercontent.com/86133411/196612255-63cbf6c0-9a82-4979-8034-ec3fa6efc187.png">
 <img width="400" alt="VGG3_plus_20epoch" src="https://user-images.githubusercontent.com/86133411/196612191-96fd7125-a2f6-43cb-97e0-2b16a7e2b049.png">
+<p align="center">Fig. 1 (a) and (b)</p>
 </p>
+<br>
 
-* Training results with data augmentation. The left plot baseline model acheives 87% of accuracy. The right plot model with more layers acheived is 92%. <br>
+* Training results with data augmentation. Fig. 2(a) the baseline model acheives 87% of accuracy. Fig. 2(b) the model with more layers acheived 92% of accuracy. 
 
 <p align="center">
 <img width="400" alt="VGG3_augmented_80epoch" src="https://user-images.githubusercontent.com/86133411/196612215-169306aa-ac02-44f6-8d59-f91abb7f9e24.png">
 <img width="400" alt="VGG3_plus_augmented_80epoch" src="https://user-images.githubusercontent.com/86133411/196612202-e6511512-676d-47d0-940e-62547acee8af.png">
+<p align="center">Fig. 2 (a) and (b)</p>
 </p>
-<br/>
+<br>
+
+* Summary table of results of different trained model 
+<p align="center">
+<img width="800" src="https://user-images.githubusercontent.com/86133411/196864158-bfcf8d25-a81e-44d3-9be6-64f06c4e40fd.png">
+</p>
+<br>
 
 ### [CNN classifier using Tflearn](UseCNNtoIdentifyDogsVsCatsTflearn.ipynb)
 * Results of applying the prediction model to 12 testing data images. 
